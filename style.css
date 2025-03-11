@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #f4b400;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.cta-button:hover {
+    background: #e09d00;
+}
+
+#features {
+    padding: 2rem 0;
+    background: #f4f4f4;
+}
+
+#features h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    background: #fff;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+    min-width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.feature-item h3 {
+    margin-bottom: 0.5rem;
+}
+
+#download {
+    padding: 2rem 0;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+#download h2 {
+    margin-bottom: 1rem;
+}
+
+#download p {
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
